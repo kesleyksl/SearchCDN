@@ -1,0 +1,14 @@
+<div class="content">
+    <ul class="card-content" *ngIf="!emptyValue && !searching">
+        <li class="card" *ngFor="let librery of librarys ">
+
+            <a href="{{urlCDN + librery.name}}" target="_blank">
+
+                {{librery.name}}
+            </a>
+        </li>
+        
+    </ul>
+    <p *ngIf="searching && !emptyValue && !librarys.length">Searching...</p>
+    <p *ngIf="(!searching && !emptyValue && !librarys.length)">Not Found CDN Library</p>
+</div>

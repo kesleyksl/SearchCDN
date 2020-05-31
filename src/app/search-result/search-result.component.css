@@ -1,0 +1,40 @@
+.content{
+        display: flex;
+        justify-content: center;
+        flex-flow: row;
+        margin-top: 30px;
+}
+.card-content{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-content li{
+    margin: 20px;
+
+}
+
+.card{
+    
+    border: 1px solid #888888;
+    
+    
+}
+.card-content li>a{
+    text-decoration: none;
+    color: #555555;
+    width: 257px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.card-content  li:hover{
+    font-size: 1.2em;
+    color: #222222;
+}

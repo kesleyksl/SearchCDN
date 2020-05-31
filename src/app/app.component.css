@@ -1,0 +1,10 @@
+.title-h1{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,106,1) 0%, rgba(47,208,204,1) 44%, rgba(113,114,215,1) 76%, rgba(146,105,195,1) 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5vh 0 5vh 0 ;
+}
+

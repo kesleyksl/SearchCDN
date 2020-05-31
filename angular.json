@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SearchCDN"
+    }
+  },
+  "defaultProject": "SearchCDN",
+  "cli": {
+    "analytics": false
+  }
 }
